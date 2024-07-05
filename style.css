@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+.technology-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.section-one-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-content {
+  width: 40%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right h2 {
+  margin-bottom: 25px;
+}
+
+.technologies-logos-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.logo-name-wrapper {
+  text-align: center;
+}
+
+.name {
+  font-size: 3rem;
+}
+
+.left p {
+  margin-bottom: 20px;
+}
+
+.left h2 {
+  margin-bottom: 15px;
+}
+
+.certificates-highlight {
+  background-color: black;
+  color: white;
+  font-size: 1.15rem;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #40e0d0;
+  padding: 13px;
+  color: black;
+  font-size: 1.15rem;
+  font-weight: bolder;
+  border-radius: 2px;
+  align-self: flex-end;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover{
+  color: #40e0d0;
+  background-color: black;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.section-two-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.project-information {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.tech-stack {
+  color: white;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.project-information p {
+  margin-bottom: 20px;
+}
+
+.project-information a {
+  text-decoration: none;
+}
+
+.source {
+  font-weight: bolder;
+  color: black;
+  border-bottom: solid black;
+}
+
+.section-three-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+
